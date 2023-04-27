@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Simple HTML Page</title>
+    <style>   
+      /* Set font */
+      body, input, button, label {
+        font-family: Consolas, sans-serif;
+      }
+      /* Center image */
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      
+      /* Center form and buttons */
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      /* Center buttons */
+      button {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <img src="logo.png" alt="My Logo" width="400" height="200">
+      <label for="input-box">Say anything who gives a fuck</label>
+      <input type="text" id="input-box" name="input-box">
+      <button type="submit">Submit</button>
+      <button type="button" onclick="location.reload();">Restart</button>
+    </form>
+  </body>
+</html>
