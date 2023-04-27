@@ -1,2 +1,2 @@
 # chadgpt
-your politically incorrect chat assistant
+your confidentally incorrect chat assistant
