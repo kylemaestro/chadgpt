@@ -2,39 +2,17 @@
 <html>
   <head>
     <title>My Simple HTML Page</title>
-    <style>   
-      /* Set font */
-      body, input, button, label {
-        font-family: Consolas, sans-serif;
-        color: yellow;
-        background-color: #0a0a0a;
-      }
-      /* Center image */
-      img {
-        display: block;
-        margin: 0 auto;
-      }
-      
-      /* Center form and buttons */
-      form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      
-      /* Center buttons */
-      button {
-        margin-top: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body style="background-color:black;">
+  <body style="background-color:#0a0a0a;">
     <form>
       <img src="logo.png" alt="My Logo" width="400" height="200">
-      <label for="input-box">Say anything who gives a fuck</label>
-      <input type="text" id="input-box" name="input-box">
-      <button type="submit">Submit</button>
-      <button type="button" onclick="location.reload();">Restart</button>
+      <label for="input-box">Just say anything lol</label>
+      <div class="inputs">
+        <input type="text" id="input-box" name="input-box">
+      <button type="submit" class="slick-button">Submit</button>
+      <button type="button" class="slick-button" onclick="location.reload();">Restart</button>
+      </div>
     </form>
   </body>
 </html>

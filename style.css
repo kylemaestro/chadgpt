@@ -1,0 +1,88 @@
+/* Style!! */
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+body{
+  font-family: Consolas, sans-serif;
+  color: yellow;
+  background-color: #0a0a0a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+label {
+  font-family: Consolas, sans-serif;
+  color: yellow;
+  margin-top: 15px;
+}
+
+.slick-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4d4d4d;
+  border: 2px solid #4d4d4d;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  bottom: 0;
+  min-width: 0;
+  margin-left: 10px;
+}
+
+.slick-button:hover {
+  background-color: #303030;
+  border-color: #303030;
+}
+
+.slick-button:active {
+  transform: translateY(2px);
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+input[type="text"] {
+  background-color: #2c2c2c;
+  border: 1px solid #444444;
+  border-radius: 3px;
+  color: #f1f1f1;
+  font-size: 16px;
+  padding: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:hover {
+  border-color: #ddd;
+}
+
+input[type="text"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 5px #aaa;
+  outline: none;
+}
+
+.response {
+  background-color: #aaa;
+}
